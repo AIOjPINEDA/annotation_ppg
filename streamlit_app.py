@@ -61,7 +61,7 @@ def main():
     Allows loading a CSV or Parquet file with signals and annotating the signals.
     Allows navigating through the signals and saving the annotations as a CSV or Parquet file.
     """
-    st.title('PPG Signal Annotation App')
+    st.title('PPG Signal Annotation App - BETA')
     
     # Load data
     uploaded_file = st.file_uploader("Load CSV or Parquet file", type=["csv", "parquet"])
